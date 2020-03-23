@@ -1,24 +1,9 @@
 # 「阅读」APP 精品书源
 
-[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square)](https://github.com/XIU2/yuedu/blob/master/LICENSE)
-[![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=yellow)](https://github.com/XIU2/yuedu/stargazers)
-[![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork)](https://github.com/XIU2/yuedu/network/members)
-
 本项目每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便大家一键导入！  
 彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！  
 > 为了避免阅读作者打爆我的狗头，所以... **「阅读」官方微信公众号：「开源阅读软件」**  
 
-> 之所以搬到 Github，主要是莫名其妙好像又火了，现在一天几十万访问量，而且每天还在稳定增加，我怕我的小服务器以后撑不住，干脆就给搬到 Github 上面了！
-
-****
-
-### 更新日志：
-- **新增：** 校验书源功能。  
-—— 脚本会把无法访问的书源网站去除。  
-—— 该功能对于那些书源规则失效（而不是书源网站挂了）的书源是无效的，所以依然可能存在小部分失效书源。
-- **修复：** 昨天脚本新抓取的书源有问题，已经修复了格式不对的问题（以后每次更新前会先检查JSON格式是否正确再更新）。
-- **新增：** 历史书源文件：https://github.com/XIU2/yuedu/tree/master/old
-- **新增：** 网站将显示书源更新时间及数量。
 
 ****
 
@@ -37,11 +22,7 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 
 ### 书源地址：
 书源每日更新，大家可以定期导入一次~ 放心！导入时会自动去重复的！
-- **书源分享地址：** https://xiu2.github.io/yuedu/
-- **网络导入地址：** https://xiu2.github.io/yuedu/shuyuan
-
-- **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**
-- **历史书源文件：** https://github.com/XIU2/yuedu/tree/master/old
+- **书源分享地址：** https://xiaoguya.github.io/yuedu/
 
 ****
 
@@ -49,36 +30,16 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 #### 二维码导入(推荐)：
 打开「阅读」APP点击左上角的 **\[三横杠\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://xiu2.github.io/yuedu/dist/img/img-01.png)
+![](https://xiaoguya.github.io/yuedu/dist/img/img-06.png)
 
 ****
 
 #### 网络导入(推荐)：
 打开「阅读」APP点击左上角的 **\[三横杠\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
-- **网络导入地址：** https://xiu2.github.io/yuedu/shuyuan
+- **网络导入地址：** https://xiaoguya.github.io/yuedu/shuyuan
 
 ****
 
-#### 本地导入：
-打开 [书源分享地址](https://xiu2.github.io/yuedu/) 后点击 **\[下载文件\]** 即可下载 **shuyuan.json** 文件，存放到手机中任何你能找到的位置。  
-
-打开「阅读」APP点击左上角的 **\[三横杠\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
-
-![](https://xiu2.github.io/yuedu/dist/img/img-02.png)
-
-****
-
-#### 历史书源导入：
-
-先去[这里](https://github.com/XIU2/yuedu/tree/master/old)找到你要导入历史书源，例如：**shuyuan_20191014.json**  
-
-那么网络导入地址为：https://xiu2.github.io/yuedu/old/shuyuan_20191014.json  
-
-自行替换 URL 最后的文件名即可。
-
-> 如果需要下载到本地，那么可以浏览器打开网络导入地址，然后 **右键 - 另存为...**
-
-****
 
 ### 如何听书？
 
