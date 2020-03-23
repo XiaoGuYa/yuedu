@@ -30,7 +30,7 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 #### 二维码导入(推荐)：
 打开「阅读」APP点击左上角的 **\[三横杠\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://xiaoguya.github.io/yuedu/dist/img/img-06.png)
+![](https://xiaoguya.github.io/yuedu/dist/img/QRCode-06.png)
 
 ****
 
